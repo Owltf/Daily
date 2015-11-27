@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Daily</string>
+    <string name="crash_toast">似乎出现了什么问题，我已经记录下了问题细节</string>
+    <string name="about_share_text">分享</string>
+    <string name="drawer_item_setting">软件设置</string>
+    <string name="drawer_item_about">关于</string>
+    <string name="network_error_toast">网络出现问题啦，请检查一下你的网络连接</string>
+    <string name="other_error_toast">好像出现了什么问题，请重试一下</string>
+    <string name="activity_gson_news_image">用来显示Gson里面的image属性</string>
+    <string name="about_menu_action_share">分享</string>
+    <string name="service_update_error">下载失败</string>
+    <string name="service_update_cancel">取消</string>
+    <string name="service_update_restart">重新开始</string>
+    <string name="service_updating">正在下载更新</string>
+    <string name="snack_exit_once_more">再按一次返回键退出Daily</string>
+    <string name="openDrawerContentDescRes">Navigation View</string>
+    <string name="closeDrawerContentDescRes">Navigation View Closed</string>
+    <string name="title_setting">设置</string>
+    <string name="settings_general_settings">常规设置</string>
+    <string name="setting_enable_cache">是否保存缓存文件</string>
+    <string name="delete_cache">点击此项清除缓存</string>
+    <string name="setting_version">版本信息</string>
+    <string name="about_introduce_and_help">介绍与帮助</string>
+    <string name="about_introduce">[Daily] - 本人第一款独立开发的应用，所实现的功能十分简单，仅仅是抓取知乎日报的内容并显示出来，感谢您的使用！</string>
+    <string name="about_thanks_to">特别鸣谢</string>
+    <string name="about_thanks_to_detail">感谢以下开源项目\ncom.jakewharton:butterknife:7.0.1\ncom.loopj.android:android-async-http:1.4.8\ncom.github.bumptech.glide:glide:3.6.1\nme.imid.swipebacklayout.lib:library:1.0.0\norg.jsoup:jsoup:1.8.3\n</string>
+    <string name="about_developers">关于我</string>
+    <string name="about_developer_description">我的专业是会计（算机）。</string>
+    <string name="title_about">关于</string>
+    <string name="snack_network_error_load_cache">网络有问题，尝试读取本地数据</string>
+    <string name="snack_network_error">网络有问题</string>
+    <string name="about_app_name_with_introduce">Daily - News from ZhihuDaily</string>
+    <string name="nav_night_mode">切换主题</string>
+</resources>

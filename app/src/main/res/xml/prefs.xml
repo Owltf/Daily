@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/settings_general_settings">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:enabled="true"
+            android:key="enable_cache"
+            android:title="@string/setting_enable_cache"/>
+        <Preference
+            android:key="delete_cache"
+            android:title="@string/delete_cache"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/setting_version">
+        <Preference
+            android:key="version"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

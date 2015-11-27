@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:checked="false"
+            android:title="@string/drawer_item_setting"/>
+        <item
+            android:id="@+id/nav_night_mode"
+            android:checked="false"
+            android:title="@string/nav_night_mode" />
+        <item
+            android:id="@+id/nav_about"
+            android:checked="false"
+            android:title="@string/drawer_item_about"/>
+
+    </group>
+
+</menu>
