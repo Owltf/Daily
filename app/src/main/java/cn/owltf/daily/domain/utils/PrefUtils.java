@@ -15,10 +15,6 @@ public class PrefUtils {
 
     public static final String PRE_CACHE_ENABLE = "enable_cache";
 
-    public static final String PRE_GSON_OR_HTML = "gson_or_html";
-
-    public static final String PRE_AUTO_UPDATE = "auto_update";
-
 
     private static SharedPreferences getSharedPreferences() {
         return App.getContext()
@@ -29,18 +25,7 @@ public class PrefUtils {
         return getSharedPreferences().getBoolean(PRE_CACHE_ENABLE, false);
     }
 
-    /**
-     * 用来检测设置中“获取数据方式”的值
-     *
-     * @return 返回"http","http+"或者"gson"
-     */
-    public static String wayToData() {
-        return getSharedPreferences().getString(PRE_GSON_OR_HTML, "http");
-    }
 
-    public static boolean isAutoUpdate() {
-        return getSharedPreferences().getBoolean(PRE_AUTO_UPDATE, false);
-    }
 
     public static boolean isCrashedLastTime() {
         return getSharedPreferences().getBoolean(PRE_CRASH_ISLASTTIMECRASHED, false);
